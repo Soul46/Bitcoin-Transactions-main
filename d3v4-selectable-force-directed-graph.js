@@ -360,7 +360,7 @@ function createV4SelectableForceDirectedGraph(svg, data) {
         second.selectAll("tspan")
         .data(data)
         .append('text')
-        .text(function(d) {console.log("ciao"); return d; });
+        .text(function(d) {console.log(d); return d; });
 
     }
 
